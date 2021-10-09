@@ -2,7 +2,7 @@ import HomePage from './HomePage';
 
 const page = new HomePage()
 
-describe("Jumbo visit",()=>{
+describe("Mercadolibre visit",()=>{
     it('cy.visit() - visit a remote url',()=>{
         page.visit();
     })
