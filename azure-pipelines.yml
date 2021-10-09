@@ -27,11 +27,3 @@ steps:
     command: 'custom'
     customCommand: 'run cy:run'
   continueOnError: true
-
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '*.xml'
-    searchFolder: '$(System.DefaultWorkingDirectory)/cypress/reports/junit'
-    mergeTestResults: true
-    testRunTitle: 'Publish tests results'
