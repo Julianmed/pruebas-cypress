@@ -10,6 +10,7 @@ describe("Mercadolibre visit",()=>{
 describe("Search computer",()=>{
     it('Search for computers and look for the results',()=>{
         page.searchProduct("computador");
+        cy.get('.test')
     })
 })
 describe("Search tv",()=>{
