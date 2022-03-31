@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
   name: Default
   demands:
-   - agent.name -equals cypress_agent 
+   - agent.name -equals my_agent 
 
 steps:
 - task: NodeTool@0
